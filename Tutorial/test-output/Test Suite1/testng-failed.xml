@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test Suite1]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="2" parallel="methods" name="Test Case(failed)" verbose="2">
+    <parameter name="name" value="Gokss"/>
+    <classes>
+      <class name="testNG.Ex9Parelell">
+        <methods>
+          <include name="openBing"/>
+          <include name="openGoogle"/>
+        </methods>
+      </class> <!-- testNG.Ex9Parelell -->
+    </classes>
+  </test> <!-- Test Case(failed) -->
+</suite> <!-- Failed suite [Test Suite1] -->
